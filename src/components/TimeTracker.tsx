@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Pause, Square } from "lucide-react";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const TimeTracker = () => {
   const [running, setRunning] = useState(true);
@@ -32,12 +32,12 @@ const TimeTracker = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.7, duration: 0.4 }}
       whileHover={{ y: -2 }}
-      className="relative rounded-2xl p-5 bg-cover bg-center text-timer-foreground flex flex-col items-center justify-center"
+      className="relative rounded-2xl p-6 sm:p-8 bg-cover bg-center text-timer-foreground flex flex-col items-center justify-between min-h-[200px] sm:min-h-[240px]"
     >
-      <h3 className="absolute top-6 left-8 text-xl font-medium text-timer-foreground/100 mb-3">Time Tracker</h3>
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl font-bold tracking-wider mb-5 font-mono">{format(seconds)}</p>
-        <div className="flex items-center gap-3">
+      <h3 className="text-lg sm:text-xl font-medium text-timer-foreground/100 mb-4 w-full text-center sm:text-left">Time Tracker</h3>
+      <div className="flex-1 flex flex-col justify-center items-center">
+        <p className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-wider mb-6 font-mono">{format(seconds)}</p>
+        <div className="flex items-center gap-4">
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

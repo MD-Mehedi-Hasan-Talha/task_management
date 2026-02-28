@@ -7,9 +7,14 @@ The project includes authentication, protected routes, API integration, and a re
 
 ## 🔗 Live Demo
 
-👉 Live URL: (Add your deployed link here)
+👉 Live URL: https://task-management-chi-lime.vercel.app/
 
 👉 GitHub Repository: https://github.com/MD-Mehedi-Hasan-Talha/task_management
+
+👉 Fake Credentials:
+- email: user1@example.com
+- password: password123
+
 
 ---
 
@@ -165,4 +170,5 @@ npm run build
 ## 👤 Author
 
 MD. Mehedi Hasan Talha
+
 Frontend Developer
