@@ -8,7 +8,8 @@ The project includes authentication, protected routes, API integration, and a re
 ## 🔗 Live Demo
 
 👉 Live URL: (Add your deployed link here)
-👉 GitHub Repository: (Add your repo link here)
+
+👉 GitHub Repository: https://github.com/MD-Mehedi-Hasan-Talha/task_management
 
 ---
 
