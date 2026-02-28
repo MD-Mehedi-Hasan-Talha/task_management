@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+     --background: 0 0% 100%;
+    --background-muted: 0 0% 96.9%;
+    --foreground: 150 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 10% 15%;
+
+    --primary: 145 63% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 140 20% 95%;
+    --secondary-foreground: 150 10% 15%;
+
+    --muted: 140 10% 94%;
+    --muted-foreground: 150 5% 50%;
+
+    --accent: 145 63% 32%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 140 10% 90%;
+    --input: 140 10% 90%;
+    --ring: 145 63% 32%;
+
+    --radius: 0.75rem;
+
+    --sidebar-bg: 0 0% 100%;
+    --sidebar-foreground: 150 5% 50%;
+    --sidebar-active: 145 63% 32%;
+    --sidebar-active-bg: 145 63% 95%;
+
+    --stat-green-bg: 145 50% 22%;
+    --stat-green-fg: 0 0% 100%;
+
+    --badge-completed: 145 63% 32%;
+    --badge-progress: 35 90% 55%;
+    --badge-pending: 0 72% 51%;
+
+    --timer-bg: 150 30% 18%;
+    --timer-fg: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
